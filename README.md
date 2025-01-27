@@ -48,6 +48,26 @@ This project is powered by DEEPSEEK-R1, a state-of-the-art AI model specifically
 - Step-by-step solution breakdowns
 - Mathematical concept explanations
 - Handling various mathematical notations
+  ## Technology Stack
+
+- **Frontend Framework**: Next.js 14 with React and TypeScript
+- **UI Components**: 
+  - Tailwind CSS for styling
+  - Shadcn/ui for modern UI components
+  - Lucide icons for consistent iconography
+- **Math Processing**:
+  - KaTeX for mathematical formula rendering
+  - Custom math validation pipeline
+  - Optimized math error boundary system
+- **State Management**: React Hooks and Context API
+- **Performance**:
+  - Server-side rendering (SSR)
+  - Client-side caching
+  - Optimized image processing
+- **Development**:
+  - TypeScript for type safety
+  - ESLint and Prettier for code quality
+  - GitHub Actions for CI/CD
 
 ## Note
 
