@@ -13,6 +13,26 @@ A smart, interactive math problem solver that helps you solve mathematical probl
 - **Math Symbol Picker**: Easy access to common mathematical symbols
 - **(Soon more detailed) Step-by-Step Explanations**: Detailed breakdown of solution steps
 
+## User Flow
+
+### ① Input Phase
+```mermaid
+graph TD
+    A[Clean Editor] --> B[Type Problem]
+    A --> C[Symbol Picker]
+    A --> D[Image Upload]
+    D --> E[Auto-cropping Preview]
+```
+
+### Interface Details
+
+| Component | UX Features |
+|-----------|-------------|
+| Editor | Syntax-aware highlighting, Multi-cursor support |
+| Solution Panel | Interactive diagrams, Copy-paste math blocks |
+| Image Upload | Annotation tools, Perspective correction |
+| History | Infinite scroll, Diff comparison |
+
 ## How to Use
 
 1. **Enter a Math Problem**:
@@ -36,10 +56,6 @@ A smart, interactive math problem solver that helps you solve mathematical probl
 - `Ctrl/⌘ + S`: Return to solver
 - `Esc`: Clear input
 
-## Support
-
-If you encounter any issues or have questions, feel free to reach out for help!
-
 ## Technology
 
 This project is powered by DEEPSEEK-R1, a state-of-the-art AI model specifically fine-tuned for mathematical problem-solving. The model excels at:
@@ -48,7 +64,8 @@ This project is powered by DEEPSEEK-R1, a state-of-the-art AI model specifically
 - Step-by-step solution breakdowns
 - Mathematical concept explanations
 - Handling various mathematical notations
-  ## Technology Stack
+
+## Technology Stack
 
 - **Frontend Framework**: Next.js 14 with React and TypeScript
 - **UI Components**: 
@@ -72,6 +89,10 @@ This project is powered by DEEPSEEK-R1, a state-of-the-art AI model specifically
 ## Note
 
 This is a private project created specifically for educational purposes. Please use responsibly and ensure it complements rather than replaces learning.
+
+## Support
+
+If you encounter any issues or have questions, feel free to reach out for help!
 
 ## Contact
 
