@@ -1,4 +1,4 @@
-# AI Math Solver
+# AI Math Solver with Deepseek-R1
 
 Preview: https://math-solver-five.vercel.app/
 
